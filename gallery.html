@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources | Southern California International Student Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #A8D5BA;
+        }
+        nav {
+            background: #74A892;
+            padding: 1em;
+            height: 100vh;
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px 0;
+            display: block;
+        }
+        .container {
+            padding: 20px;
+            margin-left: 220px;
+            text-align: center;
+            flex-grow: 1;
+        }
+        .resource-section {
+            background: #E3F2FD;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid black;
+            text-align: left;
+        }
+        th {
+            background: #74A892;
+            color: white;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #74A892;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center; margin-left: 220px; margin-top: 20px;">Resources</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Community</a>
+            <a href="gallery.html">Resources</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main class="container">
+        <h2>Support Resources for International Students</h2>
+        <p>Below is a list of mental health and student support services available in Southern California.</p>
+        
+        <section class="resource-section">
+            <h3>Mental Health & Counseling Services</h3>
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Location</th>
+                    <th>Contact</th>
+                    <th>Availability</th>
+                </tr>
+                <tr>
+                    <td>USC Student Counseling Services</td>
+                    <td>University of Southern California</td>
+                    <td>(213) 740-7711</td>
+                    <td>Mon-Fri: 8 AM - 5 PM</td>
+                </tr>
+                <tr>
+                    <td>UCLA CAPS (Counseling & Psychological Services)</td>
+                    <td>University of California, Los Angeles</td>
+                    <td>(310) 825-0768</td>
+                    <td>Mon-Fri: 9 AM - 5 PM</td>
+                </tr>
+                <tr>
+                    <td>LA County Mental Health Hotline</td>
+                    <td>Los Angeles County</td>
+                    <td>(800) 854-7771</td>
+                    <td>24/7</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section class="resource-section">
+            <h3>Student Gatherings & Community Events</h3>
+            <p>Check out some of our past student gatherings and networking events.</p>
+            <div style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+                <img src="images/gathering1.jpg" alt="International students gathering 1" width="300" style="border-radius: 10px;">
+                <img src="images/gathering2.jpg" alt="International students gathering 2" width="300" style="border-radius: 10px;">
+                <img src="images/gathering3.jpg" alt="International students gathering 3" width="300" style="border-radius: 10px;">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Southern California International Student Support | All rights reserved.</p>
+    </footer>
+</body>
+</html>

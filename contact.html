@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Southern California International Student Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #A8D5BA;
+        }
+        nav {
+            background: #74A892;
+            padding: 1em;
+            height: 100vh;
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px 0;
+            display: block;
+        }
+        .container {
+            padding: 20px;
+            margin-left: 220px;
+            text-align: center;
+            flex-grow: 1;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+            text-align: left;
+            background: #E3F2FD;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        label, input, select, textarea {
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #74A892;
+            color: white;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #74A892;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center; margin-left: 220px; margin-top: 20px;">Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Community</a>
+            <a href="gallery.html">Resources</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main class="container">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions, suggestions, or need support, feel free to reach out to us.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="inquiry">Type of Inquiry:</label>
+            <select id="inquiry" name="inquiry">
+                <option value="general">General Question</option>
+                <option value="support">Support Request</option>
+                <option value="community">Join the Community</option>
+                <option value="events">Event Information</option>
+            </select>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Southern California International Student Support | All rights reserved.</p>
+    </footer>
+</body>
+</html>
